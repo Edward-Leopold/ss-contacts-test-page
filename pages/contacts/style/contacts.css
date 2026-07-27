@@ -1,8 +1,9 @@
 :root {
   --ss-text-primary: #272F3E;
+  --ss-text-secondary: #424B5C;
+  --ss-text-tertiary: #5C637D;
   --ss-text-inverse-primary: #FFFFFF;
   --ss-text-inverse-secondary: #AFBAC6;
-  --ss-text-tertiary: #5C637D;
   --ss-bg-brand-primary: #00CBFF;
   --ss-bg-light-base: #F7F8FA;
   --ss-bg-dark-primary: #272F3E;
@@ -12,6 +13,7 @@
   display: flex;
   flex-direction: column;
   background-color: var(--ss-bg-light-base);
+  color: var(--ss-text-primary);
 }
 @media screen and (max-width: 767px) {
   .page-body {
@@ -152,6 +154,7 @@
 .contact-cards .contact-cards__mail {
   font-weight: 500;
   margin: 0;
+  color: var(--ss-text-secondary);
 }
 @media screen and (max-width: 767px) {
   .contact-cards .contact-cards__mail {
@@ -190,6 +193,7 @@
     padding-bottom: 40px;
     padding-left: 16px;
     padding-right: 16px;
+    border-radius: 24px;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -233,6 +237,7 @@
   height: 110px;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 12px;
 }
 @media screen and (max-width: 767px) {
   .contact-blog .contact-blog__card-img {
@@ -425,6 +430,7 @@
     padding-bottom: 64px;
     padding-left: 24px;
     padding-right: 8px;
+    border-radius: 24px;
   }
 }
 .contact-form .contact-form__faq-block .faq {
