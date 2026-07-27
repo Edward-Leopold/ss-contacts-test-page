@@ -44,7 +44,7 @@
 }
 @media screen and (max-width: 767px) {
   .wrap-1560 {
-    padding: 0;
+    padding: 0 8px;
   }
 }
 
