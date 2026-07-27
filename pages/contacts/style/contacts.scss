@@ -1,3 +1,19 @@
+
+@font-face {
+  font-family: 'Coil';
+  src:  url('../../assets/fonts/Coil-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Coil';
+  src:  url('../../assets/fonts/Coil-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
     --ss-text-primary: #272F3E;
     --ss-text-secondary: #424B5C;
