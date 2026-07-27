@@ -25,6 +25,29 @@
     --ss-bg-light-base: #F7F8FA;
     --ss-bg-dark-primary: #272F3E;
 
+    /* Размеры шрифтов - Desktop */
+    --ss-font-h1: 46px;
+    --ss-font-h2: 40px;
+    --ss-font-h3: 32px;
+    --ss-font-h4: 24px;
+    --ss-font-h5: 20px;
+    --ss-font-h6: 16px;
+    --ss-font-text-l: 18px;
+    --ss-font-text-m: 16px;
+    --ss-font-text-s: 14px;
+    --ss-font-caption: 12px;
+    
+    /* Размеры шрифтов - Mobile */
+    --ss-font-h1-mobile: 28px;
+    --ss-font-h2-mobile: 26px;
+    --ss-font-h3-mobile: 24px;
+    --ss-font-h4-mobile: 22px;
+    --ss-font-h5-mobile: 18px;
+    --ss-font-h6-mobile: 16px;
+    --ss-font-text-l-mobile: 18px;
+    --ss-font-text-m-mobile: 16px;
+    --ss-font-text-s-mobile: 13px;
+    --ss-font-caption-mobile: 12px;
 }
 
 // common styles
@@ -75,24 +98,63 @@
     } 
 }
 
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.title-h1 {
+    font-size: var(--ss-font-h1);
+    @media screen and (max-width: 767px) {
+        font-size: var(--ss-font-h1-mobile);
+    }
+}
+
+.title-h2 {
+    font-size: var(--ss-font-h2);
+    @media screen and (max-width: 767px) {
+        font-size: var(--ss-font-h2-mobile);
+    }
+}
+
+.title-h3 {
+    font-size: var(--ss-font-h3);
+    @media screen and (max-width: 767px) {
+        font-size: var(--ss-font-h3-mobile);
+    }
+}
+
+.title-h4 {
+    font-size: var(--ss-font-h4);
+    @media screen and (max-width: 767px) {
+        font-size: var(--ss-font-h4-mobile);
+    }
+}
+
+.title-h5 {
+    font-size: var(--ss-font-h5);
+    @media screen and (max-width: 767px) {
+        font-size: var(--ss-font-h5-mobile);
+    }
+}
+
+.title-h6 {
+    font-size: var(--ss-font-h6);
+    @media screen and (max-width: 767px) {
+        font-size: var(--ss-font-h6-mobile);
+    }
+}
+
 .section-cards {
     .title-h1 {
-        font-size: 54px;
         font-weight: 500;
         margin-bottom: 52px;
         @media screen and (max-width: 767px) {
-            font-size: 36px;
             margin-bottom: 24px;
         }
     }
 }
 
-.title-h2{
-    margin-top: 0;
-    @media screen and (max-width: 767px) {
-        font-size: 30px;
-    }
-}
+
 
 // / common styles
 
@@ -130,12 +192,13 @@
     }
 
     .contact-cards__title {
-        font-size: 22px;
+        font-size: var(--ss-font-h5);
         font-weight: 500;
         margin-bottom: 16px;
         line-height: 24px;
         @media screen and (max-width: 767px){
             margin-bottom: 8px;
+            font-size: var(--ss-font-h5-mobile);
         }
     }
 
@@ -151,10 +214,13 @@
     }
 
     .contact-cards__text {
-        font-size: 16px;
+        font-size: var(--ss-font-text-m);
         color: var(--ss-text-tertiary);
         margin: 0;
         line-height: initial;
+        @media screen and (max-width: 767px){
+            font-size: var(--ss-font-text-m-mobile);
+        }
     }
 
     .contact-cards__br{
@@ -164,12 +230,12 @@
     }
 
     .contact-cards__mail {
+        font-size: var(--ss-font-h6);
+        color: var(--ss-text-secondary);
         font-weight: 500;
         margin: 0;
-        color: var(--ss-text-secondary);
         @media screen and (max-width: 767px){
-            font-size: 16px;
-
+            font-size: var(--ss-font-h6-mobile);
         }
     }
 
@@ -261,10 +327,10 @@
     .contact-blog__card-title {
         margin-bottom: 8px;
         color: var(--ss-text-inverse-primary);
-        font-size: 18px;
+        font-size: var(--ss-font-h5);
         line-height: 24px;
         @media screen and (max-width: 767px) {
-            font-size: 20px;
+            font-size: var(--ss-font-h5-mobile);
             margin-bottom: 6px;
         }
     }
@@ -272,8 +338,11 @@
     .contact-blog__card-link {
         color: var(--ss-text-inverse-secondary);
         text-decoration: underline;
-        font-size: 16px;
+        font-size: var(--ss-font-text-m);
         line-height: 24px;
+        @media screen and (max-width: 767px){
+            font-size: var(--ss-font-text-m-mobile);
+        }
     }
 
     .contact-blog__sm-block {
@@ -307,11 +376,11 @@
     }
 
     .contact-blog__sm-title {
-        font-size: 18px;
+        font-size: var(--ss-font-text-l);
         margin-bottom: 16px;
         line-height: 148%;
         @media screen and (max-width: 1280px) {
-            font-size: 16px;
+            font-size: var(--ss-font-text-l-mobile);
         } 
     }
 
@@ -352,8 +421,11 @@
         margin-bottom: 4px;
 
         span {
-            font-size: 24px;
+            font-size: var(--ss-font-h4);
             font-weight: 500;
+            @media screen and (max-width: 767px){
+                font-size: var(--ss-font-h4-mobile);
+            }
         }
 
         img {
@@ -364,7 +436,10 @@
 
     .contact-blog__sm-plus-text {
         color: var(--ss-text-inverse-secondary);
-        font-size: 14px;
+        font-size: var(--ss-font-text-s);
+        @media screen and (max-width: 767px){
+            font-size: var(--ss-font-text-s-mobile);
+        }
     }
 }
 
@@ -391,11 +466,15 @@
         } 
     }
     .contact-map__info{
-        font-size: 20px;
+        font-size: var(--ss-font-h5);
         font-style: normal;
+        font-weight: 500;
         display: flex;
         flex-direction: column;
         gap: 24px;
+        @media screen and (max-width: 767px) {
+            font-size: var(--ss-font-h5-mobile);
+        } 
     }
     .contact-map__info-item{
         span{
@@ -455,10 +534,13 @@
         } 
     }
     .contact-form__text {
-        font-size: 20px;
+        font-size: var(--ss-font-h5);
         line-height: 24px;
         margin-bottom: 24px;
         font-weight: 400;
+        @media screen and (max-width: 767px) {
+            font-size: var(--ss-font-h5-mobile);
+        } 
     }
     .contact-form__form-block {
 
@@ -537,14 +619,14 @@
     }
 
     .faq__title {
-        font-size: 16px;
+        font-size: var(--ss-font-h6);
         font-weight: 500;
-        color: var(--cedrus-common-text-color-primary);
+        color: var(--ss-text-inverse-primary);
         line-height: 1.3;
         text-align: left;
 
         @media screen and (max-width: 767px) {
-            font-size: 14px;
+            font-size: var(--ss-font-h6-mobile);
         }
     }
 
@@ -596,9 +678,12 @@
     .faq__text {
         margin: 0;
         margin-top: 12px;
-        font-size: 16px;
+        font-size: var(--ss-font-text-m);
         font-weight: 400;
         line-height: 1.4;
+        @media screen and (max-width: 767px) {
+            font-size: var(--ss-font-text-m-mobile);
+        } 
     }
 }
 
