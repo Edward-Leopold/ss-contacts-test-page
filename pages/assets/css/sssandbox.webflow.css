@@ -1,5 +1,3 @@
-
-
 :root {
   --color-ebony: #272f3e;
   --rhino: #424b5c;
@@ -14428,18 +14426,3 @@ figcaption {
   }
 }
 
-/* 
-@font-face {
-  font-family: 'Coil';
-  src: url('../fonts/Coil-Medium.css') format('undefined'), url('../fonts/Coil-Medium.woff2') format('woff2'), url('../fonts/Coil-Medium.html') format('undefined'), url('../fonts/Coil-Medium.eot') format('embedded-opentype'), url('../fonts/Coil-Medium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Coil';
-  src: url('../fonts/Coil-Regular.ttf') format('truetype'), url('../fonts/Coil-Regular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-} */
