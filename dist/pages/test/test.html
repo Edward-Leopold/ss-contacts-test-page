@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Демо формы | Solar Staff</title>
   <script type="module" crossorigin src="../../assets/main-CD-woHlO.js"></script>
-  <link rel="stylesheet" crossorigin href="../../assets/index-Bn2F_Myq.css">
+  <link rel="stylesheet" crossorigin href="../../assets/index-9iKfezk2.css">
 </head>
 
-<body class="page-body">
-    <header class="page-header header">
+<body class="page-body"> <header class="page-header header">
     <div class="header__inner">
         <a href="#" class="header__logo-link">
             <img src="../../assets/logo-BTEafmGl.svg" alt="Solar Staff" class="header__logo">
@@ -107,16 +106,12 @@
         </div>
     </div>
     <div class="header__mobile-menu "> mobile menu </div>
-</header>
-    
-    <main class="page-main">
-
+</header> <main class="page-main">
         <!-- ==================== СЕКЦИЯ 1: СВЕТЛЫЕ ФОРМЫ НА ТЕМНОМ ФОНЕ ==================== -->
         <section class="showcase-section showcase-section_dark">
             <div class="wrap-1560">
                 <h3 class="showcase-title">Светлая тема (form_light) на темном фоне</h3>
                 <div class="showcase-grid">
-                    
                     <!-- Вариант L1: Шаг 1 (Рабочие табы!) -->
                     <div class="test-container">
                         <form action="post" class="form form_light">
@@ -133,7 +128,6 @@
                                     <label for="role-freelancer-l1" class="form__tab-btn form__tab-btn_freelancer">Я исполнитель</label>
                                 </div>
                                 <div class="form__input-group">
-                                    
                                     <!-- Контент заказчика -->
                                     <div class="form__content-client">
                                         <div class="form__inputs">
@@ -185,7 +179,6 @@
                                         </div>
                                         <button class="btn form__submit"> Попробовать демо </button>
                                     </div>
-
                                     <!-- ВОЗВРАЩЕННЫЙ КОНТЕНТ ИСПОЛНИТЕЛЯ -->
                                     <div class="form__content-freelancer">
                                         <div class="form__attention">
@@ -220,12 +213,10 @@
                                         </div>
                                         <a href="#" class="form__questions-link">Остались вопросы?</a>
                                     </div>
-
                                 </div>
                             </div>
                         </form>
                     </div>
-
                     <!-- Вариант L2: Шаг 2 (Полные 3 селекта!) -->
                     <div class="test-container">
                         <form action="post" class="form form_light">
@@ -233,52 +224,100 @@
                                 <div class="form__title">Расскажите немного о компании</div>
                                 <p class="form__subtitle">Это поможет понять, какие тариф и скорость запуска вам подойдут</p>
                                 <div class="form__input-group">
-                                    <div class="form__inputs">
+                                    <div class="form__inputs form__inputs_radio">
                                         <!-- Вопрос 6: Бюджет -->
-                                        <div class="form__select-wrapper">
-                                            <select class="form__select" required>
-                                                <option value="" disabled selected hidden>Планируемый бюджет в месяц *</option>
-                                                <option value="300">до 300 000 руб.</option>
-                                                <option value="1000">до 1 000 000 руб.</option>
-                                                <option value="3000">до 3 000 000 руб.</option>
-                                                <option value="10000">до 10 000 000 руб.</option>
-                                            </select>
-                                            <svg class="form__select-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.00064 4L5.85872 7.45462L9.7168 4" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" />
-                                            </svg>
+                                        <div class="form__group">
+                                            <div class="form__group-title">6. Какой бюджет в месяц вы планируете выделять на услуги проектных исполнителей *</div>
+                                            <div class="form__radio-grid form__radio-grid_2cols">
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="budget" value="300" class="form__radio-input" required>
+                                                    <span class="form__radio-label">до 300 000 руб.</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="budget" value="1000" class="form__radio-input" required>
+                                                    <span class="form__radio-label">до 1 000 000 руб.</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="budget" value="3000" class="form__radio-input" required>
+                                                    <span class="form__radio-label">до 3 000 000 руб.</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="budget" value="10000" class="form__radio-input" required>
+                                                    <span class="form__radio-label">до 10 000 000 руб.</span>
+                                                </label>
+                                            </div>
                                         </div>
                                         <!-- Вопрос 7: Сфера деятельности -->
-                                        <div class="form__select-wrapper">
-                                            <select class="form__select" required>
-                                                <option value="" disabled selected hidden>Сфера деятельности компании *</option>
-                                                <option value="ecommerce">E-commerce и Retail</option>
-                                                <option value="media">Реклама и медиа</option>
-                                                <option value="telecom">IT и Telecom</option>
-                                                <option value="edtech">Edtech</option>
-                                                <option value="horeca">HoReCa и Event</option>
-                                                <option value="logistics">Транспорт и логистика</option>
-                                                <option value="finance">Банки и финансы</option>
-                                                <option value="medicine">Медицина</option>
-                                                <option value="production">Промышленность и производство</option>
-                                                <option value="services">Сфера услуг</option>
-                                                <option value="construction">Строительство и недвижимость</option>
-                                                <option value="freelancer">Я фрилансер</option>
-                                            </select>
-                                            <svg class="form__select-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.00064 4L5.85872 7.45462L9.7168 4" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" />
-                                            </svg>
+                                        <div class="form__group">
+                                            <div class="form__group-title">7. В какой сфере работает ваша компания? *</div>
+                                            <div class="form__radio-grid form__radio-grid_2cols">
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="ecommerce" class="form__radio-input" required>
+                                                    <span class="form__radio-label">E-commerce и Retail</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="media" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Реклама и медиа</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="telecom" class="form__radio-input" required>
+                                                    <span class="form__radio-label">IT и Telecom</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="edtech" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Edtech</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="horeca" class="form__radio-input" required>
+                                                    <span class="form__radio-label">HoReCa и Event</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="logistics" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Транспорт и логистика</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="finance" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Банки и финансы</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="medicine" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Медицина</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="production" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Промышленность и производство</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="services" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Сфера услуг</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="construction" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Строительство и недвижимость</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="freelancer" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Я фрилансер</span>
+                                                </label>
+                                            </div>
                                         </div>
                                         <!-- Вопрос 8: Налогообложение -->
-                                        <div class="form__select-wrapper">
-                                            <select class="form__select" required>
-                                                <option value="" disabled selected hidden>Система налогообложения *</option>
-                                                <option value="osno">Общая система налогообложения (ОСНО)</option>
-                                                <option value="usn">Упрощенная система налогообложения (УСН)</option>
-                                                <option value="other">Другая</option>
-                                            </select>
-                                            <svg class="form__select-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.00064 4L5.85872 7.45462L9.7168 4" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" />
-                                            </svg>
+                                        <div class="form__group">
+                                            <div class="form__group-title">8. По какой системе налогообложения работает ваша компания? *</div>
+                                            <div class="form__radio-grid">
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="taxation" value="osno" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Общая система налогообложения (ОСНО)</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="taxation" value="usn" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Упрощенная система налогообложения (УСН)</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="taxation" value="other" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Другая</span>
+                                                </label>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="form__actions">
@@ -289,7 +328,6 @@
                             </div>
                         </form>
                     </div>
-
                     <!-- Вариант L3: Экран успеха -->
                     <div class="test-container">
                         <div class="form form_light">
@@ -297,7 +335,7 @@
                                 <div class="form__success">
                                     <div class="form__success-icon-wrapper">
                                         <svg class="form__success-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M5 12L10 17L20 7" stroke="#00CBFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M5 12L10 17L20 7" stroke="#00CBFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
                                     </div>
                                     <div class="form__title">Спасибо!</div>
@@ -307,17 +345,14 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
-
         <!-- ==================== СЕКЦИЯ 2: ТЕМНЫЕ СПЛОШНЫЕ ФОРМЫ НА СВЕТЛОМ ФОНЕ ==================== -->
         <section class="showcase-section showcase-section_light">
             <div class="wrap-1560">
                 <h3 class="showcase-title">Темная сплошная (form_dark-solid) на светлом фоне</h3>
                 <div class="showcase-grid">
-                    
                     <!-- Вариант D1: Шаг 1 (Рабочие табы!) -->
                     <div class="test-container">
                         <form action="post" class="form form_dark-solid">
@@ -333,7 +368,6 @@
                                     <label for="role-freelancer-d1" class="form__tab-btn form__tab-btn_freelancer">Я исполнитель</label>
                                 </div>
                                 <div class="form__input-group">
-                                    
                                     <!-- Контент заказчика -->
                                     <div class="form__content-client">
                                         <div class="form__inputs">
@@ -385,7 +419,6 @@
                                         </div>
                                         <button class="btn form__submit"> Попробовать демо </button>
                                     </div>
-
                                     <!-- ВОЗВРАЩЕННЫЙ КОНТЕНТ ИСПОЛНИТЕЛЯ -->
                                     <div class="form__content-freelancer">
                                         <div class="form__attention">
@@ -420,12 +453,10 @@
                                         </div>
                                         <a href="#" class="form__questions-link">Остались вопросы?</a>
                                     </div>
-
                                 </div>
                             </div>
                         </form>
                     </div>
-
                     <!-- Вариант D2: Шаг 2 -->
                     <div class="test-container">
                         <form action="post" class="form form_dark-solid">
@@ -433,52 +464,100 @@
                                 <div class="form__title">Расскажите немного о компании</div>
                                 <p class="form__subtitle">Это поможет понять, какие тариф и скорость запуска вам подойдут</p>
                                 <div class="form__input-group">
-                                    <div class="form__inputs">
+                                    <div class="form__inputs form__inputs_radio">
                                         <!-- Вопрос 6: Бюджет -->
-                                        <div class="form__select-wrapper">
-                                            <select class="form__select" required>
-                                                <option value="" disabled selected hidden>Планируемый бюджет в месяц *</option>
-                                                <option value="300">до 300 000 руб.</option>
-                                                <option value="1000">до 1 000 000 руб.</option>
-                                                <option value="3000">до 3 000 000 руб.</option>
-                                                <option value="10000">до 10 000 000 руб.</option>
-                                            </select>
-                                            <svg class="form__select-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.00064 4L5.85872 7.45462L9.7168 4" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" />
-                                            </svg>
+                                        <div class="form__group">
+                                            <div class="form__group-title">6. Какой бюджет в месяц вы планируете выделять на услуги проектных исполнителей *</div>
+                                            <div class="form__radio-grid form__radio-grid_2cols">
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="budget" value="300" class="form__radio-input" required>
+                                                    <span class="form__radio-label">до 300 000 руб.</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="budget" value="1000" class="form__radio-input" required>
+                                                    <span class="form__radio-label">до 1 000 000 руб.</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="budget" value="3000" class="form__radio-input" required>
+                                                    <span class="form__radio-label">до 3 000 000 руб.</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="budget" value="10000" class="form__radio-input" required>
+                                                    <span class="form__radio-label">до 10 000 000 руб.</span>
+                                                </label>
+                                            </div>
                                         </div>
                                         <!-- Вопрос 7: Сфера деятельности -->
-                                        <div class="form__select-wrapper">
-                                            <select class="form__select" required>
-                                                <option value="" disabled selected hidden>Сфера деятельности компании *</option>
-                                                <option value="ecommerce">E-commerce и Retail</option>
-                                                <option value="media">Реклама и медиа</option>
-                                                <option value="telecom">IT и Telecom</option>
-                                                <option value="edtech">Edtech</option>
-                                                <option value="horeca">HoReCa и Event</option>
-                                                <option value="logistics">Транспорт и логистика</option>
-                                                <option value="finance">Банки и финансы</option>
-                                                <option value="medicine">Медицина</option>
-                                                <option value="production">Промышленность и производство</option>
-                                                <option value="services">Сфера услуг</option>
-                                                <option value="construction">Строительство и недвижимость</option>
-                                                <option value="freelancer">Я фрилансер</option>
-                                            </select>
-                                            <svg class="form__select-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.00064 4L5.85872 7.45462L9.7168 4" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" />
-                                            </svg>
+                                        <div class="form__group">
+                                            <div class="form__group-title">7. В какой сфере работает ваша компания? *</div>
+                                            <div class="form__radio-grid form__radio-grid_2cols">
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="ecommerce" class="form__radio-input" required>
+                                                    <span class="form__radio-label">E-commerce и Retail</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="media" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Реклама и медиа</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="telecom" class="form__radio-input" required>
+                                                    <span class="form__radio-label">IT и Telecom</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="edtech" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Edtech</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="horeca" class="form__radio-input" required>
+                                                    <span class="form__radio-label">HoReCa и Event</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="logistics" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Транспорт и логистика</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="finance" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Банки и финансы</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="medicine" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Медицина</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="production" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Промышленность и производство</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="services" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Сфера услуг</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="construction" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Строительство и недвижимость</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="freelancer" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Я фрилансер</span>
+                                                </label>
+                                            </div>
                                         </div>
                                         <!-- Вопрос 8: Налогообложение -->
-                                        <div class="form__select-wrapper">
-                                            <select class="form__select" required>
-                                                <option value="" disabled selected hidden>Система налогообложения *</option>
-                                                <option value="osno">Общая система налогообложения (ОСНО)</option>
-                                                <option value="usn">Упрощенная система налогообложения (УСН)</option>
-                                                <option value="other">Другая</option>
-                                            </select>
-                                            <svg class="form__select-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.00064 4L5.85872 7.45462L9.7168 4" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" />
-                                            </svg>
+                                        <div class="form__group">
+                                            <div class="form__group-title">8. По какой системе налогообложения работает ваша компания? *</div>
+                                            <div class="form__radio-grid">
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="taxation" value="osno" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Общая система налогообложения (ОСНО)</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="taxation" value="usn" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Упрощенная система налогообложения (УСН)</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="taxation" value="other" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Другая</span>
+                                                </label>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="form__actions">
@@ -489,7 +568,6 @@
                             </div>
                         </form>
                     </div>
-
                     <!-- Вариант D3: Экран успеха -->
                     <div class="test-container">
                         <div class="form form_dark-solid">
@@ -497,7 +575,7 @@
                                 <div class="form__success">
                                     <div class="form__success-icon-wrapper">
                                         <svg class="form__success-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M5 12L10 17L20 7" stroke="#00CBFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M5 12L10 17L20 7" stroke="#00CBFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
                                     </div>
                                     <div class="form__title">Спасибо!</div>
@@ -507,17 +585,14 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
-
         <!-- ==================== СЕКЦИЯ 3: ТЕМНЫЕ ПРОЗРАЧНЫЕ ФОРМЫ НА ТЕМНОМ ФОНЕ ==================== -->
         <section class="showcase-section showcase-section_dark">
             <div class="wrap-1560">
                 <h3 class="showcase-title">Темная прозрачная (form_dark-transparent) на темном фоне</h3>
                 <div class="showcase-grid">
-                    
                     <!-- Вариант T1: Шаг 1 -->
                     <div class="test-container">
                         <form action="post" class="form form_dark-transparent">
@@ -557,7 +632,6 @@
                                                 </svg>
                                             </div>
                                         </div>
-
                                         <div class="form__checkboxes">
                                             <label class="form__checkbox-label">
                                                 <input type="checkbox" value="1">
@@ -582,10 +656,8 @@
                                                 <span class="form__checkbox-text">Даю <a href="/documents/consent-to-receive-marketing-communications">согласие</a> на получение информационных и рекламных сообщений</span>
                                             </label>
                                         </div>
-
                                         <button class="btn form__submit"> Попробовать демо </button>
                                     </div>
-
                                     <div class="form__content-freelancer">
                                         <div class="form__attention">
                                             <svg class="form__attention-icon" width="100%" height="100%" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -619,12 +691,10 @@
                                         </div>
                                         <a href="#" class="form__questions-link">Остались вопросы?</a>
                                     </div>
-
                                 </div>
                             </div>
                         </form>
                     </div>
-
                     <!-- Вариант T2: Шаг 2 -->
                     <div class="test-container">
                         <form action="post" class="form form_dark-transparent">
@@ -632,52 +702,100 @@
                                 <div class="form__title">Расскажите немного о компании</div>
                                 <p class="form__subtitle">Это поможет понять, какие тариф и скорость запуска вам подойдут</p>
                                 <div class="form__input-group">
-                                    <div class="form__inputs">
+                                    <div class="form__inputs form__inputs_radio">
                                         <!-- Вопрос 6: Бюджет -->
-                                        <div class="form__select-wrapper">
-                                            <select class="form__select" required>
-                                                <option value="" disabled selected hidden>Планируемый бюджет в месяц *</option>
-                                                <option value="300">до 300 000 руб.</option>
-                                                <option value="1000">до 1 000 000 руб.</option>
-                                                <option value="3000">до 3 000 000 руб.</option>
-                                                <option value="10000">до 10 000 000 руб.</option>
-                                            </select>
-                                            <svg class="form__select-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.00064 4L5.85872 7.45462L9.7168 4" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" />
-                                            </svg>
+                                        <div class="form__group">
+                                            <div class="form__group-title">6. Какой бюджет в месяц вы планируете выделять на услуги проектных исполнителей *</div>
+                                            <div class="form__radio-grid form__radio-grid_2cols">
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="budget" value="300" class="form__radio-input" required>
+                                                    <span class="form__radio-label">до 300 000 руб.</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="budget" value="1000" class="form__radio-input" required>
+                                                    <span class="form__radio-label">до 1 000 000 руб.</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="budget" value="3000" class="form__radio-input" required>
+                                                    <span class="form__radio-label">до 3 000 000 руб.</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="budget" value="10000" class="form__radio-input" required>
+                                                    <span class="form__radio-label">до 10 000 000 руб.</span>
+                                                </label>
+                                            </div>
                                         </div>
                                         <!-- Вопрос 7: Сфера деятельности -->
-                                        <div class="form__select-wrapper">
-                                            <select class="form__select" required>
-                                                <option value="" disabled selected hidden>Сфера деятельности компании *</option>
-                                                <option value="ecommerce">E-commerce и Retail</option>
-                                                <option value="media">Реклама и медиа</option>
-                                                <option value="telecom">IT и Telecom</option>
-                                                <option value="edtech">Edtech</option>
-                                                <option value="horeca">HoReCa и Event</option>
-                                                <option value="logistics">Транспорт и логистика</option>
-                                                <option value="finance">Банки и финансы</option>
-                                                <option value="medicine">Медицина</option>
-                                                <option value="production">Промышленность и производство</option>
-                                                <option value="services">Сфера услуг</option>
-                                                <option value="construction">Строительство и недвижимость</option>
-                                                <option value="freelancer">Я фрилансер</option>
-                                            </select>
-                                            <svg class="form__select-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.00064 4L5.85872 7.45462L9.7168 4" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" />
-                                            </svg>
+                                        <div class="form__group">
+                                            <div class="form__group-title">7. В какой сфере работает ваша компания? *</div>
+                                            <div class="form__radio-grid form__radio-grid_2cols">
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="ecommerce" class="form__radio-input" required>
+                                                    <span class="form__radio-label">E-commerce и Retail</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="media" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Реклама и медиа</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="telecom" class="form__radio-input" required>
+                                                    <span class="form__radio-label">IT и Telecom</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="edtech" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Edtech</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="horeca" class="form__radio-input" required>
+                                                    <span class="form__radio-label">HoReCa и Event</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="logistics" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Транспорт и логистика</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="finance" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Банки и финансы</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="medicine" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Медицина</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="production" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Промышленность и производство</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="services" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Сфера услуг</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="construction" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Строительство и недвижимость</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="industry" value="freelancer" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Я фрилансер</span>
+                                                </label>
+                                            </div>
                                         </div>
                                         <!-- Вопрос 8: Налогообложение -->
-                                        <div class="form__select-wrapper">
-                                            <select class="form__select" required>
-                                                <option value="" disabled selected hidden>Система налогообложения *</option>
-                                                <option value="osno">Общая система налогообложения (ОСНО)</option>
-                                                <option value="usn">Упрощенная система налогообложения (УСН)</option>
-                                                <option value="other">Другая</option>
-                                            </select>
-                                            <svg class="form__select-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.00064 4L5.85872 7.45462L9.7168 4" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" />
-                                            </svg>
+                                        <div class="form__group">
+                                            <div class="form__group-title">8. По какой системе налогообложения работает ваша компания? *</div>
+                                            <div class="form__radio-grid">
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="taxation" value="osno" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Общая система налогообложения (ОСНО)</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="taxation" value="usn" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Упрощенная система налогообложения (УСН)</span>
+                                                </label>
+                                                <label class="form__radio-tile">
+                                                    <input type="radio" name="taxation" value="other" class="form__radio-input" required>
+                                                    <span class="form__radio-label">Другая</span>
+                                                </label>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="form__actions">
@@ -688,7 +806,6 @@
                             </div>
                         </form>
                     </div>
-
                     <!-- Вариант T3: Экран успеха -->
                     <div class="test-container">
                         <div class="form form_dark-transparent">
@@ -696,7 +813,7 @@
                                 <div class="form__success">
                                     <div class="form__success-icon-wrapper">
                                         <svg class="form__success-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M5 12L10 17L20 7" stroke="#00CBFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M5 12L10 17L20 7" stroke="#00CBFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
                                     </div>
                                     <div class="form__title">Спасибо!</div>
@@ -706,14 +823,10 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
-
-    </main>
-    
-    <footer class="page-footer footer">
+    </main> <footer class="page-footer footer">
     <div class="footer__inner">
         <div class="footer__main">
             <div class="footer__info-block">
@@ -819,6 +932,6 @@
             </div>
         </div>
     </div>
-</footer>
-</body>
+</footer> </body>
+
 </html>
