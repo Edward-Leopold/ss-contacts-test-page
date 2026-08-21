@@ -1,1 +1,0 @@
-import"./main-CD-woHlO.js";import"./reviews-slider-BWaDGUfl.js";var e=document.querySelector(`#team-slider`);e&&new Splide(e,{type:`slide`,perPage:2,perMove:1,gap:`12px`,pagination:!1,arrows:!0}).mount();

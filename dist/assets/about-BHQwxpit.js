@@ -1,0 +1,1 @@
+import"./main-CB3s8Pmn.js";import{n as e}from"./reviews-slider-4RDGa-dK.js";var t=document.querySelector(`#team-slider`);t&&new e(t,{type:`slide`,perPage:2,perMove:1,gap:`12px`,pagination:!1,arrows:!0}).mount();
